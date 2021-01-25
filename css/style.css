@@ -507,6 +507,51 @@ section .title::after {
   content: "Get In Touch";
 }
 
+/*projects section styling*/
+.projects {
+  background: #fff;
+}
+.projects .title::after {
+  content: "part of my work";
+}
+.projects-content {
+  background: grey;
+}
+.cards {
+  width: 274px;
+  background-color: grey;
+  border-radius: 5px;
+  margin: 25px;
+  display: inline-block;
+  box-shadow: 2px 2px 10px black;
+}
+.image img {
+  width: 274px;
+  height: 300px;
+  border-radius: 5px;
+}
+.title1 {
+  text-align: center;
+}
+.des {
+  text-align: center;
+}
+.btn1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+}
+.btn1:hover {
+  background-color: black;
+  color: white;
+  transition: 5s;
+}
+
+
+
 /*contact section styling*/
 
 .contact .title::after{
